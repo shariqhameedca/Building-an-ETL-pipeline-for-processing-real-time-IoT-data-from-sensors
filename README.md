@@ -1,5 +1,5 @@
 # Building-an-ETL-pipeline-for-processing-real-time-IoT-data-from-sensors
-Built an IoT system using DHT22 sensor, ESP32, MicroPython, MySQL, and AWS SQS. The system collected real-time temperature and humidity data, transformed it, and loaded it into a database. Used AWS SQS for messaging and MicroPython for programming the ESP32
+Built an IoT system using <b>DHT22</b> sensor, <b>ESP32, MicroPython, MySQL,</b> and <b>AWS SQS</b>. The system collected real-time temperature and humidity data, transformed it, and loaded it into a database. Used AWS SQS for messaging and MicroPython for programming the ESP32
 
 # How the project works
 First, a DHT22 sensor interfaced with esp32 mcu reads temperature and humidity data from the sensor. From esp32 each record read is sent to amazon sqs queue.

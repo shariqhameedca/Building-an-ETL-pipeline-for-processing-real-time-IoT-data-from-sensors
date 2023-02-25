@@ -65,7 +65,7 @@ sensor_data = {"MessageId":[], "temperature":[], "humidity":[], "timestamp":[]}
 start_time = time.time()
 
 # Set up the time interval for data aggregation
-interval = 20  # 10 seconds
+interval = 60  # 1 minute
 
 while True:
     # Receive messages from the queue
